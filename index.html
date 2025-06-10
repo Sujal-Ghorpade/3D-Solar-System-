@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Solar System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container"></div>
+    <div id="labels"></div>
+
+    <div class="control-panel">
+      <h2>Planet Speeds</h2>
+      <div class="slider-group">
+        <label
+          >Mercury
+          <input
+            type="range"
+            id="mercurySpeed"
+            min="0.01"
+            max="0.5"
+            step="0.01"
+            value="0.1"
+        /></label>
+        <label
+          >Venus
+          <input
+            type="range"
+            id="venusSpeed"
+            min="0.01"
+            max="0.5"
+            step="0.01"
+            value="0.08"
+        /></label>
+        <label
+          >Earth
+          <input
+            type="range"
+            id="earthSpeed"
+            min="0.01"
+            max="0.5"
+            step="0.01"
+            value="0.06"
+        /></label>
+        <label
+          >Mars
+          <input
+            type="range"
+            id="marsSpeed"
+            min="0.01"
+            max="0.5"
+            step="0.01"
+            value="0.04"
+        /></label>
+        <label
+          >Jupiter
+          <input
+            type="range"
+            id="jupiterSpeed"
+            min="0.01"
+            max="0.5"
+            step="0.01"
+            value="0.03"
+        /></label>
+        <label
+          >Saturn
+          <input
+            type="range"
+            id="saturnSpeed"
+            min="0.01"
+            max="0.5"
+            step="0.01"
+            value="0.02"
+        /></label>
+        <label
+          >Uranus
+          <input
+            type="range"
+            id="uranusSpeed"
+            min="0.01"
+            max="0.5"
+            step="0.01"
+            value="0.01"
+        /></label>
+        <label
+          >Neptune
+          <input
+            type="range"
+            id="neptuneSpeed"
+            min="0.01"
+            max="0.5"
+            step="0.01"
+            value="0.009"
+        /></label>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.146.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.146.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
